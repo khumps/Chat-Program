@@ -4,7 +4,7 @@ import java.net.Socket;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
-public class Server extends ThreadedSocketHandler {
+public class Server extends Thread implements ThreadedSocketHandler {
 
 	public static final int PORT = 6969;
 	public static final String HOST = "localhost";

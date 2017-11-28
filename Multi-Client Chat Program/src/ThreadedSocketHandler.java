@@ -4,7 +4,7 @@
  * @author Kevin Humphreys
  *
  */
-public abstract class ThreadedSocketHandler extends Thread {
+public interface ThreadedSocketHandler {
 
 	/**
 	 * Called whenever a contained ThreadedSocket receives a message
