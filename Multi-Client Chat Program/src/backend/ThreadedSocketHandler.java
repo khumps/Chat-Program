@@ -1,3 +1,5 @@
+package backend;
+
 /**
  * A container class to handle events from one or more ThreadedSockets's
  * 
@@ -24,4 +26,5 @@ public interface ThreadedSocketHandler {
 	 */
 	public abstract void onMessageSent(ThreadedSocketEvent event);
 
+	public abstract void onSocketClose(ThreadedSocket socket);
 }

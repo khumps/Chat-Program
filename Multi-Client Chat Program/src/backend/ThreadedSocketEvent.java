@@ -1,4 +1,11 @@
-
+package backend;
+/**
+ * An event is created every time a message is sent or received over a
+ * ThreadedSocket
+ * 
+ * @author Kevin Humphreys
+ *
+ */
 public class ThreadedSocketEvent {
 	/**
 	 * The ThreadedSocket that created the event
